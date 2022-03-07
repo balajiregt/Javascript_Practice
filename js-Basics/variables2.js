@@ -12,7 +12,7 @@ alert(hello); // Hello world!
 alert(message); // Hello world!
 
 
-let name = "John";
+let name = "Johnny";
 
 // embed a variable
 alert( `Hello, ${name}!` ); // Hello, John!
