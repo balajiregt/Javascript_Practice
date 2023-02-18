@@ -1,21 +1,16 @@
 
 
-let hello = 'Hello world!';
+let hello = 'Hello world! updated';
+let message='hello world! updated two'
 
-let message;
-
-// copy 'Hello world' from hello into message
-message = hello;
-
-// now two variables hold the same data
-alert(hello); // Hello world!
-alert(message); // Hello world!
+alert(hello);
+alert(message);
 
 
 let name = "Johnny";
 
 // embed a variable
-alert( `Hello, ${name}!` ); // Hello, John!
+alert( `Hello, ${name}!` );
 
 // embed an expression
 alert( `the result is ${1+1}` ); // the result is 3
